@@ -573,7 +573,6 @@ body {
 }
 
 .subscribe-icon {
-  margin-left: 16px;
   fill: var(--backgr-color);
 }
 
@@ -711,6 +710,7 @@ body {
 }
 
 .modal-textarea {
+  display: block;
   height: 120px;
   border-radius: 4px;
   line-height: 1.17;
@@ -751,6 +751,7 @@ body {
   color: var(--frame-custom-color);
 }
 .modal-chek-span {
+  margin-right: 8px;
   display: inline-flex;
   align-items: center;
   border: 1px solid rgba(46, 47, 66, 0.4);
@@ -770,6 +771,8 @@ body {
   color: var(--subsid-color);
 }
 .modal-btn-send {
+  margin-right: auto;
+  margin-left: auto;
   font-family: "Roboto", sans-serif;
   display: block;
   height: 56px;
